@@ -1,0 +1,47 @@
+ul{
+    list-style: none;
+    display: block;
+    width: 225px;
+}
+a{
+    text-decoration: none;
+}
+.mainmenu > li{
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+}
+.mainmenu li a{
+    color: rgb(0, 0, 0);
+    background-color: rgb(135, 162, 221);
+    padding: 10px 10px;
+    font-size: 30px; 
+}
+.mainmenu li:hover a{
+    color: white;
+    background-color: rgb(80, 80, 189);
+}
+
+
+.mainmenu li ul {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 185px;
+}
+.mainmenu li:hover ul{
+    display: block;
+}
+.mainmenu li:hover ul li a{
+    color: rgb(0, 0, 0);
+    background-color: rgb(160, 238, 231);
+    padding: 10px 10px;
+    font-size: 30px; 
+} 
+.mainmenu li:hover ul li a:hover{
+    background-color: rgb(100, 179, 106);
+    color: white;
+}
+.mainmenu li:hover ul li{
+    margin-bottom: 20px;
+}

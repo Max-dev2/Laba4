@@ -1,0 +1,82 @@
+.maindiv{
+    width: 800px;
+    margin: 0 auto;
+}
+.headweather{
+    color: rgb(70, 69, 69);
+}
+.headweather > h1{
+    font-size: 60px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+.headweather > h2{
+    margin: 10px 0px;
+}
+.currentweather{
+    margin-left: 20px;
+    position: relative;
+}
+.currentweather > img{
+    width: 130px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.currentweather > h2{
+    display: inline-block;
+    position: absolute;
+    font-size: 40px;
+    margin: 40px 0px 0px 130px;
+    
+}
+.currentweather > h2 > span{
+    font-size: 25px;
+    position: absolute;
+    color: rgb(43, 43, 43);
+
+}
+.currentweather > span{
+    display: inline-block;
+    position: absolute;
+    margin: 0px 0px 0px 300px;
+}
+.currentdata{
+    color: rgb(155, 143, 143);
+}
+.today{
+    position: relative;
+}
+.today > h3{
+    display: inline-block;
+    position: relative;
+    color: rgb(70, 69, 69);
+}
+.today > img{
+    display: inline-block;
+    position: absolute;
+    width: 80px;
+    left: 200px;
+}
+.today > span{
+    display: inline-block;
+    position: absolute;
+    left: 480px;
+    margin-top: 18px;
+}
+.today span h3{
+    color: rgb(37, 37, 37);
+    margin: 1px;
+    
+}
+.today span h3 + h3{
+    color: rgb(131, 131, 131);
+}
+.today > span +h3{
+    display: inline-block;
+    position: absolute;
+    left: 670px;
+    color: rgb(105, 103, 103);
+}
+.today + hr{
+    margin-top: 40px;
+}

@@ -1,0 +1,91 @@
+ul{
+    list-style: none;
+    position:absolute;
+    display: inline-block;
+    background-color: green;
+    top: 40px;
+    left: 900px;
+    height: 0px;
+    transition: height 1.5s;
+}
+li{
+    margin-bottom: 15px;
+    padding-right: 10px;
+}
+a{
+    
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+a:hover{
+    color: rgb(204, 204, 204);
+}
+.menu{
+    width: 1000px;
+    height: 50px;
+    background-color: green;
+    margin-left: 200px;
+}
+input[type=checkbox]{
+    display: none;
+}
+.checklabel{
+    display: inline-block;
+    position: absolute;
+}
+.lablclose{
+    display: none;
+    position: absolute;
+}
+.fa-times{
+    display: inline-block;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    left: 935px;
+    top: -1px;
+    
+}
+.fa-bars{
+    display: inline-block;
+    position: relative;
+    color: white;
+    cursor: pointer;
+    left: 940px;
+    top: 5px;
+}
+
+
+.drawsquare{
+    display: inline-block;
+    height: 10px;
+    
+    width: 1000px;
+    background-color: green;
+    transition: height 1.5s;
+}
+
+input[type=checkbox]:checked ~ .drawsquare{
+    display: inline-block;
+    height: 300px;
+
+}
+input[type=checkbox]:checked ~ ul{
+    display: inline-block;
+    height: 0px;
+
+}
+input[type=checkbox]:checked + .checklabel{
+    display: none;
+}
+input[type=checkbox]:checked ~ .lablclose{
+    display: inline-block;
+}
+.cat{
+    width: 45px;
+    display: inline-block;
+    position: absolute;
+    left: 212px;
+    top: 11px;
+}

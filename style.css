@@ -1,0 +1,27 @@
+p {
+    text-align: center;
+    color: green;
+}
+.p1{
+    color: red;
+}
+#p_id1{
+    color: rgb(221, 123, 221);
+}
+
+a{
+    color:  rgb(221, 123, 221);
+}
+
+.main > li > a{
+    color: green;
+}
+.main > li ul{
+    list-style-type: none;
+} 
+.lastlist li{
+    list-style-type: square;
+}
+.lastlist li a{
+    text-decoration: none;
+}
